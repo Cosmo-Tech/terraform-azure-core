@@ -40,18 +40,10 @@ provider "azuread" {
   client_secret = var.client_secret
 }
 
-# provider "kubernetes" {
-#   # host                   = local.host
-#   # client_certificate     = local.client_certificate
-#   # client_key             = local.client_key
-#   # cluster_ca_certificate = local.cluster_ca_certificate
-#   host                   = module.cluster.cluster_endpoint
-#   client_certificate     = base64decode(module.cluster.cluster_client_certificate)
-#   client_key             = base64decode(module.cluster.cluster_client_key)
-#   cluster_ca_certificate = base64decode(module.cluster.cluster_ca_certificate)
-# }
 provider "kubernetes" {
-  config_path            = "~/.kube/config"
-  config_context_cluster = var.kubernetes_cluster_name
+  host                   = local.host
+  client_certificate     = local.client_certificate
+  client_key             = local.client_key
+  cluster_ca_certificate = local.cluster_ca_certificate
 }
 

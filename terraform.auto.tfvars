@@ -58,9 +58,7 @@ kubernetes_highmemory_enable_auto_scaling   = true
 kubernetes_services_enable_auto_scaling     = true
 kubernetes_db_enable_auto_scaling           = true
 kubernetes_monitoring_enable_auto_scaling   = true
-kubernetes_admin_group_object_ids = [
-  ""
-]
+kubernetes_admin_group_object_ids = []
 kubernetes_cluster_admin_group_object_ids = []
 kubernetes_cluster_name                     = ""
 kubernetes_nodepool_system_name             = "system"
