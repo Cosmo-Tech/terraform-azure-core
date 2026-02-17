@@ -1,0 +1,31 @@
+variable "velero_storage_name" {
+  type = string
+}
+
+variable "velero_location" {
+  type = string
+}
+
+variable "velero_storage_tier" {
+  type = string
+}
+
+variable "velero_storage_replication_type" {
+  type = string
+}
+
+variable "velero_storage_kind" {
+  type = string
+}
+
+variable "velero_public_network_access_enabled" {
+  type = bool
+}
+
+variable "velero_storage_csm_ip" {
+  type = string
+}
+
+variable "velero_deploy" {
+  type = bool
+}
