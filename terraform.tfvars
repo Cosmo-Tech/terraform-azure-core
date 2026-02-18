@@ -6,12 +6,12 @@ tenant_id       = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 
 
 # Resource group
-resource_group = "n/a"
+resource_group = "NA"
 
 # poject
-project_cost_center   = "n/a"
-project_customer_name = "n/a"
-project_name          = "n/a"
+project_cost_center   = "NA"
+project_customer_name = "NA"
+project_name          = "NA"
 project_stage         = "Dev"
 
 # kubernetes

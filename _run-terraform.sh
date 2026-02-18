@@ -16,6 +16,6 @@ done
 
 
 # Deploy
-./_run-init.sh  tenant-azure-core-01-mtor
+./_run-init.sh  devops-core-infra-0001
 ./_run-plan.sh  terraform.tfvars
 # ./_run-apply.sh 
